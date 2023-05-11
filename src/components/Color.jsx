@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom';
 
 const Color = () => {
   
-  const { word } = useParams();
-  const { tColor } = useParams();
-  const { bColor } = useParams();
+  const { word } = useParams(); //word to be displayed
+  const { tColor } = useParams(); //text color
+  const { bColor } = useParams(); //background color
   
   return (
     <div>
